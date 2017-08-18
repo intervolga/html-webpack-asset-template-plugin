@@ -1,6 +1,6 @@
 {
   "name": "@intervolga/html-webpack-asset-template-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "WebPack 2+ plugin for html-webpack-plugin template replacement on the fly",
   "main": "index.js",
   "scripts": {
