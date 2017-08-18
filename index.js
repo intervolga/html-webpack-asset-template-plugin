@@ -13,6 +13,7 @@ HtmlWebpackAssetTemplatePlugin.prototype.apply = function(compiler) {
         const filename = htmlPluginData.plugin.options.filename;
         if (compilation.assets[filename]) {
           htmlPluginData.html = compilation.assets[filename].source();
+          delete compilation.assets[filename];
         }
 
         callback(null, htmlPluginData);
