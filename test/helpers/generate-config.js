@@ -21,6 +21,8 @@ const techMap = {
 
 module.exports = function(entry, output) {
   return {
+    mode: 'development',
+
     entry: entry,
 
     output: {
